@@ -1,7 +1,7 @@
 -- phpMyAdmin SQL Dump
 -- version 4.9.2
 -- https://www.phpmyadmin.net/
---
+--by @cequattro@gmail.com
 -- Servidor: 127.0.0.1:3306
 -- Tiempo de generación: 30-01-2020 a las 13:58:25
 -- Versión del servidor: 10.4.10-MariaDB
