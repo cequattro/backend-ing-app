@@ -12,6 +12,26 @@ public class transaction {
 	private Date executiondate;
 	private Date orderdate;
 	private String description;
+	
+	
+	
+	public transaction() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	public transaction(int transactionid, int orderedby, int amount,
+			int originaccountid, int destinationaccountid, Date executiondate,
+			Date orderdate, String description) {
+		super();
+		this.transactionid = transactionid;
+		this.orderedby = orderedby;
+		this.amount = amount;
+		this.originaccountid = originaccountid;
+		this.destinationaccountid = destinationaccountid;
+		this.executiondate = executiondate;
+		this.orderdate = orderdate;
+		this.description = description;
+	}
 	public int getTransactionid() {
 		return transactionid;
 	}

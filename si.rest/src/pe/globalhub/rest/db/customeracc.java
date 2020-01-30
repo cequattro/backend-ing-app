@@ -6,6 +6,22 @@ public class customeracc {
 	private int UUIDCustomer;
 	private int accointid;
 	private String holdertype;
+	
+	
+	
+	
+	public customeracc() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	public customeracc(int id, int uUIDCustomer, int accointid,
+			String holdertype) {
+		super();
+		this.id = id;
+		UUIDCustomer = uUIDCustomer;
+		this.accointid = accointid;
+		this.holdertype = holdertype;
+	}
 	public int getId() {
 		return id;
 	}

@@ -28,8 +28,8 @@ public class ConectaDB {
 	 //SQLMYSQL
 	private String	driver= "com.mysql.jdbc.Driver";
 	private String 	url= "jdbc:mysql://localhost/grantia";
-	private String 	login= "root";
-	private String 	password= "";
+	private String 	login= "root";//"root"
+	private String 	password= "";//""
 	
 	
 	/*ORACLE

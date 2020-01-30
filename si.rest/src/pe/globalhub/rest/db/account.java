@@ -7,6 +7,22 @@ public class account {
 	private double overallbalance;
 	private String producttype;
 	private String currency;
+	
+	
+	
+	public account() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	public account(int accointid, String iban, double overallbalance,
+			String producttype, String currency) {
+		super();
+		this.accointid = accointid;
+		this.iban = iban;
+		this.overallbalance = overallbalance;
+		this.producttype = producttype;
+		this.currency = currency;
+	}
 	public int getAccointid() {
 		return accointid;
 	}
